@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890D49A01B7B223400F3FD1D /* ImageMapXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D499F1B7B223400F3FD1D /* ImageMapXMLParser.m */; };
+		8980A9DA1B7B017A00938DFB /* ImageMapDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8980A9D91B7B017A00938DFB /* ImageMapDownloadOperation.m */; };
+		89BE62741B7C1D46007256E2 /* TileImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BE62731B7C1D46007256E2 /* TileImageDownloadOperation.m */; };
+		89FADCCF1B785DA100B7153B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FADCCE1B785DA100B7153B /* AppDelegate.m */; };
+		89FADCD11B785DA100B7153B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FADCD01B785DA100B7153B /* main.m */; };
+		89FADCD31B785DA100B7153B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FADCD21B785DA100B7153B /* Images.xcassets */; };
+		89FADCD61B785DA100B7153B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89FADCD41B785DA100B7153B /* MainMenu.xib */; };
+		89FADCE21B785DA100B7153B /* LeidenDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FADCE11B785DA100B7153B /* LeidenDownloaderTests.m */; };
+		89FADCED1B7862CC00B7153B /* ImageTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FADCEC1B7862CC00B7153B /* ImageTile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89FADCDC1B785DA100B7153B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89FADCC01B785DA100B7153B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FADCC71B785DA100B7153B;
+			remoteInfo = LeidenDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890D499E1B7B223400F3FD1D /* ImageMapXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMapXMLParser.h; sourceTree = "<group>"; };
+		890D499F1B7B223400F3FD1D /* ImageMapXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMapXMLParser.m; sourceTree = "<group>"; };
+		8980A9D81B7B017A00938DFB /* ImageMapDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMapDownloadOperation.h; sourceTree = "<group>"; };
+		8980A9D91B7B017A00938DFB /* ImageMapDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMapDownloadOperation.m; sourceTree = "<group>"; };
+		89BE62721B7C1D46007256E2 /* TileImageDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileImageDownloadOperation.h; sourceTree = "<group>"; };
+		89BE62731B7C1D46007256E2 /* TileImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileImageDownloadOperation.m; sourceTree = "<group>"; };
+		89FADCC81B785DA100B7153B /* LeidenDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeidenDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FADCCC1B785DA100B7153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FADCCD1B785DA100B7153B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89FADCCE1B785DA100B7153B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89FADCD01B785DA100B7153B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89FADCD21B785DA100B7153B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89FADCD51B785DA100B7153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		89FADCDB1B785DA100B7153B /* LeidenDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeidenDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FADCE01B785DA100B7153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FADCE11B785DA100B7153B /* LeidenDownloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeidenDownloaderTests.m; sourceTree = "<group>"; };
+		89FADCEB1B7862CC00B7153B /* ImageTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTile.h; sourceTree = "<group>"; };
+		89FADCEC1B7862CC00B7153B /* ImageTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FADCC51B785DA100B7153B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FADCD81B785DA100B7153B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89FADCBF1B785DA100B7153B = {
+			isa = PBXGroup;
+			children = (
+				89FADCCA1B785DA100B7153B /* LeidenDownloader */,
+				89FADCDE1B785DA100B7153B /* LeidenDownloaderTests */,
+				89FADCC91B785DA100B7153B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89FADCC91B785DA100B7153B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FADCC81B785DA100B7153B /* LeidenDownloader.app */,
+				89FADCDB1B785DA100B7153B /* LeidenDownloaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89FADCCA1B785DA100B7153B /* LeidenDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				89FADCCD1B785DA100B7153B /* AppDelegate.h */,
+				89FADCCE1B785DA100B7153B /* AppDelegate.m */,
+				89FADCD21B785DA100B7153B /* Images.xcassets */,
+				89FADCD41B785DA100B7153B /* MainMenu.xib */,
+				89FADCCB1B785DA100B7153B /* Supporting Files */,
+				89FADCEB1B7862CC00B7153B /* ImageTile.h */,
+				89FADCEC1B7862CC00B7153B /* ImageTile.m */,
+				8980A9D81B7B017A00938DFB /* ImageMapDownloadOperation.h */,
+				8980A9D91B7B017A00938DFB /* ImageMapDownloadOperation.m */,
+				89BE62721B7C1D46007256E2 /* TileImageDownloadOperation.h */,
+				89BE62731B7C1D46007256E2 /* TileImageDownloadOperation.m */,
+				890D499E1B7B223400F3FD1D /* ImageMapXMLParser.h */,
+				890D499F1B7B223400F3FD1D /* ImageMapXMLParser.m */,
+			);
+			path = LeidenDownloader;
+			sourceTree = "<group>";
+		};
+		89FADCCB1B785DA100B7153B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FADCCC1B785DA100B7153B /* Info.plist */,
+				89FADCD01B785DA100B7153B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89FADCDE1B785DA100B7153B /* LeidenDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				89FADCE11B785DA100B7153B /* LeidenDownloaderTests.m */,
+				89FADCDF1B785DA100B7153B /* Supporting Files */,
+			);
+			path = LeidenDownloaderTests;
+			sourceTree = "<group>";
+		};
+		89FADCDF1B785DA100B7153B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FADCE01B785DA100B7153B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89FADCC71B785DA100B7153B /* LeidenDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FADCE51B785DA100B7153B /* Build configuration list for PBXNativeTarget "LeidenDownloader" */;
+			buildPhases = (
+				89FADCC41B785DA100B7153B /* Sources */,
+				89FADCC51B785DA100B7153B /* Frameworks */,
+				89FADCC61B785DA100B7153B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeidenDownloader;
+			productName = LeidenDownloader;
+			productReference = 89FADCC81B785DA100B7153B /* LeidenDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89FADCDA1B785DA100B7153B /* LeidenDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FADCE81B785DA100B7153B /* Build configuration list for PBXNativeTarget "LeidenDownloaderTests" */;
+			buildPhases = (
+				89FADCD71B785DA100B7153B /* Sources */,
+				89FADCD81B785DA100B7153B /* Frameworks */,
+				89FADCD91B785DA100B7153B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FADCDD1B785DA100B7153B /* PBXTargetDependency */,
+			);
+			name = LeidenDownloaderTests;
+			productName = LeidenDownloaderTests;
+			productReference = 89FADCDB1B785DA100B7153B /* LeidenDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89FADCC01B785DA100B7153B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = xcorex;
+				TargetAttributes = {
+					89FADCC71B785DA100B7153B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					89FADCDA1B785DA100B7153B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 89FADCC71B785DA100B7153B;
+					};
+				};
+			};
+			buildConfigurationList = 89FADCC31B785DA100B7153B /* Build configuration list for PBXProject "LeidenDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89FADCBF1B785DA100B7153B;
+			productRefGroup = 89FADCC91B785DA100B7153B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89FADCC71B785DA100B7153B /* LeidenDownloader */,
+				89FADCDA1B785DA100B7153B /* LeidenDownloaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89FADCC61B785DA100B7153B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FADCD31B785DA100B7153B /* Images.xcassets in Resources */,
+				89FADCD61B785DA100B7153B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FADCD91B785DA100B7153B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89FADCC41B785DA100B7153B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FADCD11B785DA100B7153B /* main.m in Sources */,
+				89FADCED1B7862CC00B7153B /* ImageTile.m in Sources */,
+				890D49A01B7B223400F3FD1D /* ImageMapXMLParser.m in Sources */,
+				89FADCCF1B785DA100B7153B /* AppDelegate.m in Sources */,
+				8980A9DA1B7B017A00938DFB /* ImageMapDownloadOperation.m in Sources */,
+				89BE62741B7C1D46007256E2 /* TileImageDownloadOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FADCD71B785DA100B7153B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89FADCE21B785DA100B7153B /* LeidenDownloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89FADCDD1B785DA100B7153B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89FADCC71B785DA100B7153B /* LeidenDownloader */;
+			targetProxy = 89FADCDC1B785DA100B7153B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89FADCD41B785DA100B7153B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89FADCD51B785DA100B7153B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89FADCE31B785DA100B7153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		89FADCE41B785DA100B7153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89FADCE61B785DA100B7153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeidenDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89FADCE71B785DA100B7153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LeidenDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89FADCE91B785DA100B7153B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeidenDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeidenDownloader.app/Contents/MacOS/LeidenDownloader";
+			};
+			name = Debug;
+		};
+		89FADCEA1B785DA100B7153B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeidenDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeidenDownloader.app/Contents/MacOS/LeidenDownloader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89FADCC31B785DA100B7153B /* Build configuration list for PBXProject "LeidenDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FADCE31B785DA100B7153B /* Debug */,
+				89FADCE41B785DA100B7153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FADCE51B785DA100B7153B /* Build configuration list for PBXNativeTarget "LeidenDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FADCE61B785DA100B7153B /* Debug */,
+				89FADCE71B785DA100B7153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FADCE81B785DA100B7153B /* Build configuration list for PBXNativeTarget "LeidenDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FADCE91B785DA100B7153B /* Debug */,
+				89FADCEA1B785DA100B7153B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89FADCC01B785DA100B7153B /* Project object */;
+}
